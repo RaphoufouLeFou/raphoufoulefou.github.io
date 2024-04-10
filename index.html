@@ -2,44 +2,32 @@
 <html>
     <head>
         <link rel="stylesheet" href="color.css">
-        <title>Train game</title>
+        <title>Raphael</title>
     </head>
     <body>
-        <h1 id = "title">Train Game</h1>
-        <div id = "main">
-        <p>Last version avalaible <a href="https://bit.ly/3RZrQ0V" target="_blank">here</a> for download</p>
-        <h1>Change log</h1>
-        <h2>A0.0.1.6</h2>
-        <ol>
-            <li><h3>Train</h3>
-            <ul>   
-                <li>Updated train model</li>
-                <li>Blocked placement ouside of the track</li>
-                <li>Fixed trajectory</li>
-                <li>Reduced speed</li>
-            </ul>
-            </li>
-            <li><h3>Rails</h3>
-                <ul>   
-                    <li>fixed placement glitch when different orientations of straight rails</li>
-                    <li>Removed split rails temporarly</li>
-                </ul>
-            </li>
-            <li><h3>UI</h3>
-                <ul>   
-                    <li>Added control menu to controls train</li>
-                    <li>Added move button to move rails</li>
-                    <li>Added error notification when placeing a train ouside of a track</li>
-                </ul>
-            </li>
-            <li><h3>General</h3>
-                <ul>   
-                    <li>Added Advanced mode</li>
-                    <li>Added base for a tutorial</li>
-                    <li>Added a new map</li>
-                </ul>
-            </li>
-        </ol>
-    </div>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="AVR-MircoPC/index.html">AVR-MircoPC</a>
+            <a href="Train-Game/index.html">Train-Game</a>
+            <a href="Compiling/index.html">C/C++ compiling</a>
+            <a href="Performance/index.html">Performance</a>
+            <a href="https://github.com/RaphoufouLeFou"><img src="github-light-icon-2048x1998-m3c0rgap.png" height=32px></a>
+        </div>
+        
+        <div id="title"></div>
+
+        <div id="main"><div>
+            <h2><span>Inspiration</span></h2>
+
+            <p>
+                I'v coded some software 3D renderer in the past. The first one was written in C for my <a href="https://github.com/RaphoufouLeFou/Doom-console-ESP32">game console</a>. It was a very simple one that only drawn the edges of cubes, with single color.
+                After that, I'v coded better one in C++ with SLD2. This time, it could render in real-time multiple cubes with simples texture and player mouvements.
+
+                Finally, I'v coded antoher one in Assembly for the AVR-MicroPC. This one was verry simple, and could draw the edges of one white cube, without any rotation or texture, but with player mouvements.
+                It took aproximatly 1200 lines of <a href="https://github.com/RaphoufouLeFou/AVR-microPC/blob/main/src/Renderer8bit.asm">code</a>, but it was fast, and can run at 30FPS. 
+                
+            </p>
+
+        </div></div>
     </body>
 </html>
